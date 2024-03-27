@@ -1,0 +1,39 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+    width: 100vw;
+    height: auto;
+}
+
+.img_bikcraft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul_bikecraft_header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.ul_bikecraft_header li {
+    text-decoration: none;
+    background-color: white;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+}
+
+main {
+    display: grid;
+    columns: 1fr 1fr 1fr;
+}
+
+p {
+    text-size-adjust: 20px;
+}
+
