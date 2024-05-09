@@ -1,1 +1,56 @@
 
+//html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="botao"> Mais informações </button>
+
+    <p class="texto">Aula de front end duração 4 horas</p>
+
+    <script src="/index.js"></script>
+</body>
+</html>
+
+//javaScript
+const botao = document.querySelector(".botao");
+
+
+function mostrar(event){
+
+const texto = document.querySelector(".texto")
+texto.classList.toggle("ativar");
+
+    console.log(event.x)
+}
+
+botao.addEventListener("click", mostrar);
+
+
+
+
+console.log(botao)
+
+
+//css
+
+.texto{
+    display: none;
+}
+
+.texto.ativar{
+    display: block;
+
+}
+
+
+
+
+
+
+
